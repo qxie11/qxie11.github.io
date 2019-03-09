@@ -7318,6 +7318,148 @@ button:active, button:focus {
     margin-left: 79px;
     margin-top: 121px; }
 
+.ourservices {
+  padding-top: 92px;
+  padding-bottom: 130px; }
+  .ourservices__welcome {
+    color: #7c7c7c;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5px; }
+  .ourservices__h1 {
+    color: #494949;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    text-align: center;
+    margin-left: 10px; }
+    .ourservices__h1:after {
+      content: '';
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30px;
+      height: 2px;
+      background-color: #2eb0ec;
+      margin-top: 18px; }
+  .ourservices__webdev, .ourservices__photo, .ourservices__vector {
+    padding-top: 70px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    padding-bottom: 20px;
+    margin-top: 11px; }
+    .ourservices__webdev:hover, .ourservices__photo:hover, .ourservices__vector:hover {
+      box-shadow: 0px -2px 30px 3px rgba(0, 0, 0, 0.27); }
+    .ourservices__webdev-svg, .ourservices__photo-svg, .ourservices__vector-svg {
+      width: 100px;
+      height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block; }
+    .ourservices__webdev-h2, .ourservices__photo-h2, .ourservices__vector-h2 {
+      margin-top: 45px;
+      color: #494949;
+      font-family: "Raleway";
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center; }
+    .ourservices__webdev-p, .ourservices__photo-p, .ourservices__vector-p {
+      color: #7c7c7c;
+      font-family: "Raleway";
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 26px;
+      margin-top: 25px;
+      max-width: 291px;
+      text-align: center;
+      margin-left: 26px; }
+
+.features {
+  background: url(public/img/backgrounds/content2-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding-bottom: 185px; }
+  .features__ipadandiphone {
+    position: absolute;
+    top: 112px;
+    left: -236px; }
+  .features__h2 {
+    opacity: 0.4;
+    color: #494949;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 128px;
+    letter-spacing: 0.5px; }
+  .features__h1 {
+    color: #494949;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 15px; }
+  .features__h3 {
+    color: #7c7c7c;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 21px; }
+  .features__list {
+    margin-top: 50px; }
+    .features__list-item {
+      color: #7c7c7c;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 30px;
+      position: relative;
+      margin-bottom: 10px;
+      margin-left: 38px; }
+    .features__list .decor__first {
+      bottom: 221px; }
+    .features__list .decor__second {
+      bottom: 179px; }
+    .features__list .decor__three {
+      bottom: 140px; }
+    .features__list .decor__four {
+      bottom: 100px; }
+    .features__list-decor {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: rgba(150, 219, 239, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: 14px; }
+      .features__list-decor div {
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        background-color: #66d4f4; }
+  .features__readmore {
+    width: 150px;
+    height: 50px;
+    box-shadow: 0 10px 16px rgba(102, 212, 244, 0.3);
+    border-radius: 25px;
+    background-color: #66d4f4;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-top: 35px;
+    margin-left: 7px;
+    transition: 0.5s ease; }
+    .features__readmore:hover {
+      background: #fff;
+      color: #66d4f4;
+      box-shadow: 0 10px 16px rgba(102, 212, 244, 0.6); }
+
 /*HEADER*/
 /*HEADER*/
 /*HEADER*/
@@ -7529,7 +7671,110 @@ button:active, button:focus {
   .header__info-capture {
     font-size: 21px; }
   .header__info-btnwrap {
-    width: 27px; } }
+    width: 270px; } }
+
+@media screen and (max-width: 1200px) {
+  .ourservices__webdev-p, .ourservices__photo-p, .ourservices__vector-p {
+    margin-left: 4px;
+    font-size: 12px; } }
+
+@media screen and (max-width: 992px) {
+  .ourservices {
+    padding-bottom: 50px; }
+    .ourservices__photo-p, .ourservices__vector-p, .ourservices__webdev-p {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 16px;
+      max-width: 438px; } }
+
+@media screen and (max-width: 576px) {
+  .ourservices {
+    padding-top: 50px; } }
+
+@media screen and (max-width: 480px) {
+  .ourservices__photo-p, .ourservices__vector-p, .ourservices__webdev-p {
+    font-size: 13px;
+    max-width: 308px; } }
+
+@media screen and (max-width: 360px) {
+  .ourservices__photo-p, .ourservices__vector-p, .ourservices__webdev-p {
+    font-size: 11px;
+    max-width: 248px; } }
+
+@media screen and (max-width: 1450px) {
+  .features {
+    padding-bottom: 85px; }
+  .features__ipadandiphone {
+    top: 82px;
+    left: -146px;
+    transform: scale(0.6); } }
+
+@media screen and (max-width: 1200px) {
+  .features__h3 {
+    font-size: 17px; }
+  .features__ipadandiphone {
+    top: 122px;
+    left: -254px; } }
+
+@media screen and (max-width: 992px) {
+  .features__ipadandiphone {
+    top: 72px;
+    left: -329px; }
+  .features__h2 {
+    margin-top: 80px; }
+  .features__h1 {
+    font-size: 29px; }
+  .features__h3 {
+    font-size: 13px; }
+  .features__list-item {
+    font-size: 11px; } }
+
+@media screen and (max-width: 768px) {
+  .features__ipadandiphone {
+    left: -480px; }
+  .features__h2 {
+    font-size: 17px; }
+  .features__h1 {
+    font-size: 21px; }
+  .features__h3 {
+    font-size: 10px;
+    line-height: 20px; }
+  .features__list-item {
+    font-size: 9px; } }
+
+@media screen and (max-width: 576px) {
+  .features {
+    padding-bottom: 35px; }
+    .features__ipadandiphone {
+      display: none; }
+    .features__h2 {
+      text-align: center;
+      margin-top: 60px; }
+    .features__h1 {
+      text-align: center; }
+    .features__h3 {
+      text-align: center;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto; }
+    .features__list-item {
+      text-align: center;
+      margin-left: 0; }
+      .features__list-item:before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        background-color: rgba(150, 219, 239, 0.8); }
+    .features__list-decor {
+      display: none; }
+    .features__readmore {
+      margin-left: auto;
+      display: block;
+      margin-right: auto; } }
 
 body, html {
   font-size: 16px;
