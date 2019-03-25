@@ -1,0 +1,13 @@
+$sema: #fff;
+@import "../../node_modules/normalize.css/normalize.css";
+
+body {
+  color: $sema;
+  background: blue;
+  font-family: Arial;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
