@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../node_modules/normalize.css/normalize.css";
+@import "styles/util/vars.scss";
+@import "styles/util/fonts.scss";
+@import "styles/components/nav.scss";
+@import "styles/components/home-header.scss";
+
+
+body {
+    font-family: $pn;
+}
+
+input::-ms-clear {
+    display: none;
+ }
