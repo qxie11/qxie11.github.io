@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.8cc6a877.chunk.css",
-    "main.js": "/static/js/main.cc190bf7.chunk.js",
-    "main.js.map": "/static/js/main.cc190bf7.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.fe48b994.chunk.css": "/static/css/2.fe48b994.chunk.css",
-    "static/js/2.570d0db9.chunk.js": "/static/js/2.570d0db9.chunk.js",
-    "static/js/2.570d0db9.chunk.js.map": "/static/js/2.570d0db9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b9dde282197f08330d26fdc8fa9935fc.js": "/precache-manifest.b9dde282197f08330d26fdc8fa9935fc.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.fe48b994.chunk.css.map": "/static/css/2.fe48b994.chunk.css.map",
-    "static/css/main.8cc6a877.chunk.css.map": "/static/css/main.8cc6a877.chunk.css.map",
-    "static/media/style.scss": "/static/media/header__bg.963602a7.jpg",
-    "static/media/header__github.png": "/static/media/header__github.66627374.png",
-    "static/media/header__telegram.png": "/static/media/header__telegram.69cd77ea.png"
+    "main.css": "/testtask/static/css/main.9faea663.chunk.css",
+    "main.js": "/testtask/static/js/main.cc190bf7.chunk.js",
+    "main.js.map": "/testtask/static/js/main.cc190bf7.chunk.js.map",
+    "runtime~main.js": "/testtask/static/js/runtime~main.a0ecfc7d.js",
+    "runtime~main.js.map": "/testtask/static/js/runtime~main.a0ecfc7d.js.map",
+    "static/css/2.fe48b994.chunk.css": "/testtask/static/css/2.fe48b994.chunk.css",
+    "static/js/2.570d0db9.chunk.js": "/testtask/static/js/2.570d0db9.chunk.js",
+    "static/js/2.570d0db9.chunk.js.map": "/testtask/static/js/2.570d0db9.chunk.js.map",
+    "index.html": "/testtask/index.html",
+    "precache-manifest.37c04e15c1e1423d4e3a55914f887d43.js": "/testtask/precache-manifest.37c04e15c1e1423d4e3a55914f887d43.js",
+    "service-worker.js": "/testtask/service-worker.js",
+    "static/css/2.fe48b994.chunk.css.map": "/testtask/static/css/2.fe48b994.chunk.css.map",
+    "static/css/main.9faea663.chunk.css.map": "/testtask/static/css/main.9faea663.chunk.css.map",
+    "static/media/style.scss": "/testtask/static/media/header__bg.963602a7.jpg",
+    "static/media/header__github.png": "/testtask/static/media/header__github.66627374.png",
+    "static/media/header__telegram.png": "/testtask/static/media/header__telegram.69cd77ea.png"
   }
 }
