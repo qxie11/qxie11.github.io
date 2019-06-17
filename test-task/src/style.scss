@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../node_modules/normalize.css/normalize.css";
+@import "styles/util/vars.scss";
+@import "styles/util/fonts.scss";
+@import "styles/components/nav.scss";
+@import "styles/components/home-header.scss";
+@import "styles/components/contacts.scss";
+@import "styles/components/faq.scss";
+@import "styles/components/map.scss";
+@import "styles/components/about.scss";
+@import "styles/components/auth.scss";
+
+body {
+    font-family: $pn;
+    overflow-x: hidden;
+}
+
+input::-ms-clear {
+    display: none;
+ }
