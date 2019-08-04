@@ -8258,9 +8258,330 @@ a.text-dark:hover, a.text-dark:focus {
         background: transparent;
         border: 2px solid white; }
 
+.param {
+  height: 78vw;
+  background: url(public/img/bg/param__bg.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 3;
+  margin-top: -11vw; }
+  .param__shoe {
+    position: absolute;
+    top: 21.7%;
+    left: 17.6%;
+    background: url(public/img/decor/param__shoe.png);
+    width: 69vw;
+    height: 38vw;
+    background-size: cover; }
+  .param__buy {
+    width: 200px;
+    height: 50px;
+    -webkit-box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+            box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background: #00ecf4;
+    border: 2px solid transparent;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto-Bold";
+    text-transform: uppercase;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+    outline: none;
+    position: absolute;
+    top: 62%;
+    left: 28%; }
+    .param__buy:hover {
+      background: transparent;
+      border: 2px solid #00ecf4;
+      color: #00ecf4; }
+
+.thewayyoulike {
+  background: url(public/img/bg/thewayyoulike__bg.png);
+  height: 67vw;
+  background-size: cover;
+  position: relative;
+  margin-top: -31vw; }
+  .thewayyoulike__shoe {
+    position: absolute;
+    background: url(public/img/decor/thewayyoulike__shoe.png);
+    background-size: cover;
+    height: 19vw;
+    width: 65vw;
+    top: 59%;
+    left: 4%; }
+  .thewayyoulike__info {
+    position: absolute;
+    top: 57%;
+    left: 63%; }
+    .thewayyoulike__info-chapter {
+      color: #263238;
+      font-family: "Roboto-Bold";
+      font-size: 60px;
+      line-height: 90px;
+      text-align: center; }
+    .thewayyoulike__info-p {
+      max-width: 550px;
+      color: #888;
+      font-family: "Roboto-Regular";
+      font-size: 20px;
+      line-height: 31px;
+      text-align: center; }
+    .thewayyoulike__info-buy {
+      display: block;
+      width: 200px;
+      height: 50px;
+      -webkit-box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+              box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+      border-radius: 25px;
+      background: #00ecf4;
+      border: 2px solid transparent;
+      color: white;
+      font-size: 14px;
+      font-family: "Roboto-Bold";
+      text-transform: uppercase;
+      -webkit-transition: 0.2s ease;
+      transition: 0.2s ease;
+      outline: none;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 60px; }
+      .thewayyoulike__info-buy:hover {
+        background: transparent;
+        border: 2px solid #00ecf4;
+        color: #00ecf4; }
+
+@media screen and (max-width: 1600px) {
+  .header:after {
+    top: 230px;
+    left: 52%; } }
+
+@media screen and (max-width: 1300px) {
+  .header:after {
+    top: 270px; } }
+
+@media screen and (max-width: 1199px) {
+  .header {
+    padding-bottom: 150px; }
+    .header:after {
+      top: 190px; }
+    .header__title {
+      font-size: 32px;
+      margin-top: 110px;
+      margin-left: 70px; }
+    .header__btnwrap {
+      margin-left: 70px;
+      width: 320px;
+      margin-top: 60px; }
+      .header__btnwrap button {
+        width: 150px;
+        height: 49px; } }
+
+@media screen and (max-width: 992px) {
+  .header__title {
+    font-size: 25px;
+    line-height: 38px; }
+  .header__btnwrap {
+    margin-top: 40px;
+    width: 256px; }
+    .header__btnwrap button {
+      width: 120px;
+      height: 35px;
+      font-size: 12px; } }
+
+@media screen and (max-width: 767px) {
+  .hamburger {
+    padding: 0;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75); }
+  .header {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+    .header__logo {
+      -webkit-transform: scale(0.75) translateY(-9px);
+              transform: scale(0.75) translateY(-9px); }
+    .header__title {
+      margin-top: 70px;
+      margin-left: 50px;
+      line-height: 30px;
+      font-size: 18px; }
+    .header__btnwrap {
+      margin-left: 50px;
+      margin-top: 30px;
+      width: 196px; }
+      .header__btnwrap button {
+        width: 90px;
+        height: 27px;
+        font-size: 10px; } }
+
+@media screen and (max-width: 575px) {
+  .header {
+    padding-top: 40px;
+    padding-bottom: 75px; }
+    .header:after {
+      display: none; }
+    .header__title {
+      text-align: center;
+      font-size: 30px;
+      line-height: 49px;
+      margin-left: 0; }
+    .header__btnwrap {
+      margin-left: auto;
+      margin-right: auto; } }
+
+@media screen and (max-width: 420px) {
+  .hamburger {
+    margin-right: -20px; }
+  .header {
+    background-position: 82% 0%;
+    height: 100vh; }
+    .header__title {
+      margin-top: 35%; } }
+
+@media screen and (max-width: 330px) {
+  .header__title {
+    font-size: 27px; } }
+
+@media screen and (max-width: 1199px) {
+  .param__buy {
+    width: 150px;
+    height: 49px;
+    top: 61%;
+    left: 27%; } }
+
+@media screen and (max-width: 992px) {
+  .param__buy {
+    width: 120px;
+    height: 35px;
+    font-size: 12px; } }
+
+@media screen and (max-width: 767px) {
+  .param__buy {
+    width: 90px;
+    height: 27px;
+    font-size: 10px; } }
+
+@media screen and (max-width: 450px) {
+  .param__buy {
+    width: 70px;
+    height: 23px;
+    font-size: 8px; }
+    .param__buy:hover {
+      border: 1px solid #00ecf4; } }
+
+@media screen and (max-width: 1550px) {
+  .thewayyoulike__info {
+    left: 60%; }
+    .thewayyoulike__info-chapter {
+      font-size: 54px; }
+    .thewayyoulike__info-p {
+      max-width: 500px;
+      font-size: 17px; } }
+
+@media screen and (max-width: 1300px) {
+  .thewayyoulike__info {
+    top: 50%; }
+    .thewayyoulike__info-chapter {
+      font-size: 49px; }
+    .thewayyoulike__info-p {
+      max-width: 440px;
+      font-size: 15px; } }
+
+@media screen and (max-width: 1199px) {
+  .thewayyoulike__info-buy {
+    width: 150px;
+    height: 49px;
+    margin-top: 40px; } }
+
+@media screen and (max-width: 1150px) {
+  .thewayyoulike__info-chapter {
+    font-size: 39px; }
+  .thewayyoulike__info-p {
+    max-width: 350px;
+    font-size: 12px;
+    line-height: 24px; } }
+
+@media screen and (max-width: 992px) {
+  .thewayyoulike__info-buy {
+    width: 120px;
+    height: 35px;
+    font-size: 12px; } }
+
+@media screen and (max-width: 930px) {
+  .thewayyoulike__info-chapter {
+    font-size: 29px;
+    line-height: 51px; }
+  .thewayyoulike__info-p {
+    max-width: 300px;
+    font-size: 11px; } }
+
+@media screen and (max-width: 767px) {
+  .thewayyoulike__info {
+    left: 55%; }
+    .thewayyoulike__info-buy {
+      width: 90px;
+      height: 27px;
+      font-size: 10px; } }
+
+@media screen and (max-width: 680px) {
+  .thewayyoulike__info-chapter {
+    font-size: 26px; }
+  .thewayyoulike__info-p {
+    max-width: 240px;
+    font-size: 9px;
+    line-height: 18px; }
+  .thewayyoulike__info-buy {
+    margin-top: 25px; } }
+
+@media screen and (max-width: 560px) {
+  .thewayyoulike__info-chapter {
+    font-size: 21px;
+    line-height: 38px; }
+  .thewayyoulike__info-p {
+    max-width: 187px;
+    font-size: 7px;
+    line-height: 16px; } }
+
+@media screen and (max-width: 490px) {
+  .thewayyoulike__info {
+    top: 46%;
+    left: 53%; } }
+
+@media screen and (max-width: 450px) {
+  .thewayyoulike__info-chapter {
+    font-size: 19px;
+    line-height: 31px; }
+  .thewayyoulike__info-p {
+    max-width: 179px;
+    font-size: 6px;
+    line-height: 12px; }
+  .thewayyoulike__info-buy {
+    width: 70px;
+    height: 23px;
+    font-size: 8px;
+    margin-top: 18px; }
+    .thewayyoulike__info-buy:hover {
+      border: 1px solid #00ecf4; } }
+
+@media screen and (max-width: 390px) {
+  .thewayyoulike__info {
+    top: 51%; }
+    .thewayyoulike__info-chapter {
+      font-size: 15px;
+      line-height: 20px; }
+    .thewayyoulike__info-p {
+      max-width: 150px;
+      font-size: 5px;
+      margin-bottom: 3px; }
+    .thewayyoulike__info-buy {
+      margin-top: 10px; } }
+
 body {
   font-family: "Roboto-Regular", Arial, sans-serif;
   outline: none; }
+
+body, html {
+  overflow-x: hidden; }
 
 button:focus {
   outline: none; }
