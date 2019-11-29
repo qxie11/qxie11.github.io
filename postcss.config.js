@@ -1,1 +1,0 @@
-require('autoprefixer')({browsers: ['last 10 versions']});
