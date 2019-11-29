@@ -7,5 +7,4 @@ test-react-app/node_modules
 .DS_Store
 **/.DS_Store
 *.map
-/dist
-dist
+
