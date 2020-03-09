@@ -26,20 +26,31 @@
 	margin-bottom: 15px;
 }
 
-.description, .skills, .english, .current-job, .github, .education {
+.description, .skills, .english, .current-job, .contacts, .education {
 	display: flex;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.description {
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+}
+
+.description .chapter {
+	margin-top: 10px;
 }
 
 .chapter {
 	flex-basis: 20%;
 	font-weight: bold;
+	word-break: break-word;	
 }
 
 .text {
 	flex-basis: 80%;
 	line-height: 40px;
-	margin-top: -10px;
 }
 

@@ -26,7 +26,7 @@
 		padding-right: 20px;
 	}
 
-	.description, .skills, .english, .current-job, .github, .education {
+	.description, .skills, .english, .current-job, .contacts, .education {
 		justify-content: space-between;
 	}
 
@@ -61,6 +61,10 @@
 	.education .chapter {
 		font-size: 13px;
 	}
+
+	.description .chapter {
+			margin-top: 0px;
+	}
 }
 
 @media screen and (max-width: 420px) {
@@ -76,5 +80,11 @@
 
 	.education .chapter {
 		font-size: 11px;
+	}
+
+	.cv {
+		max-width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 }
