@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/covid-monitoring/static/css/main.2551f77d.chunk.css",
-    "main.js": "/covid-monitoring/static/js/main.ea8f5723.chunk.js",
-    "main.js.map": "/covid-monitoring/static/js/main.ea8f5723.chunk.js.map",
-    "runtime-main.js": "/covid-monitoring/static/js/runtime-main.7543a624.js",
-    "runtime-main.js.map": "/covid-monitoring/static/js/runtime-main.7543a624.js.map",
-    "static/js/2.cea84c6a.chunk.js": "/covid-monitoring/static/js/2.cea84c6a.chunk.js",
-    "static/js/2.cea84c6a.chunk.js.map": "/covid-monitoring/static/js/2.cea84c6a.chunk.js.map",
-    "index.html": "/covid-monitoring/index.html",
-    "precache-manifest.8cd203cb328814ce7654a6196576a19f.js": "/covid-monitoring/precache-manifest.8cd203cb328814ce7654a6196576a19f.js",
-    "service-worker.js": "/covid-monitoring/service-worker.js",
-    "static/css/main.2551f77d.chunk.css.map": "/covid-monitoring/static/css/main.2551f77d.chunk.css.map",
-    "static/js/2.cea84c6a.chunk.js.LICENSE.txt": "/covid-monitoring/static/js/2.cea84c6a.chunk.js.LICENSE.txt",
-    "static/media/virus.png": "/covid-monitoring/static/media/virus.d7265326.png"
+    "main.css": "/covid/static/css/main.2551f77d.chunk.css",
+    "main.js": "/covid/static/js/main.ea8f5723.chunk.js",
+    "main.js.map": "/covid/static/js/main.ea8f5723.chunk.js.map",
+    "runtime-main.js": "/covid/static/js/runtime-main.e528276c.js",
+    "runtime-main.js.map": "/covid/static/js/runtime-main.e528276c.js.map",
+    "static/js/2.e96cc46c.chunk.js": "/covid/static/js/2.e96cc46c.chunk.js",
+    "static/js/2.e96cc46c.chunk.js.map": "/covid/static/js/2.e96cc46c.chunk.js.map",
+    "index.html": "/covid/index.html",
+    "precache-manifest.c7425e738bbcd5140ab00128ad7b99dc.js": "/covid/precache-manifest.c7425e738bbcd5140ab00128ad7b99dc.js",
+    "service-worker.js": "/covid/service-worker.js",
+    "static/css/main.2551f77d.chunk.css.map": "/covid/static/css/main.2551f77d.chunk.css.map",
+    "static/js/2.e96cc46c.chunk.js.LICENSE.txt": "/covid/static/js/2.e96cc46c.chunk.js.LICENSE.txt",
+    "static/media/virus.png": "/covid/static/media/virus.d7265326.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7543a624.js",
-    "static/js/2.cea84c6a.chunk.js",
+    "static/js/runtime-main.e528276c.js",
+    "static/js/2.e96cc46c.chunk.js",
     "static/css/main.2551f77d.chunk.css",
     "static/js/main.ea8f5723.chunk.js"
   ]
