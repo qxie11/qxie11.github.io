@@ -299,7 +299,7 @@ a {
     -webkit-animation: myOrbit 8s linear infinite;
             animation: myOrbit 8s linear infinite; }
   .faq__interview {
-    width: 60%; }
+    width: 65%; }
     .faq__interview-wrap {
       border-top: 1px solid rgba(200, 200, 200, 0.8);
       padding-bottom: 20px;
@@ -523,10 +523,10 @@ a {
     -webkit-justify-content: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    background: -webkit-gradient(linear, left top, right top, from(#91a5ff), to(#00d4ff));
-    background: -webkit-linear-gradient(left, #91a5ff 0%, #00d4ff 100%);
-    background: -o-linear-gradient(left, #91a5ff 0%, #00d4ff 100%);
-    background: linear-gradient(90deg, #91a5ff 0%, #00d4ff 100%); }
+    background: -webkit-gradient(linear, left top, right top, from(#00d2ff), to(#3a7bd5));
+    background: -webkit-linear-gradient(left, #00d2ff, #3a7bd5);
+    background: -o-linear-gradient(left, #00d2ff, #3a7bd5);
+    background: linear-gradient(to right, #00d2ff, #3a7bd5); }
     .portfolio__card-back button {
       width: 50px;
       height: 50px;
@@ -607,10 +607,10 @@ a {
       opacity: 0.4; }
 
 .links {
-  background: -webkit-gradient(linear, left top, right top, from(#001a8e), to(#0c687a));
-  background: -webkit-linear-gradient(left, #001a8e 0%, #0c687a 100%);
-  background: -o-linear-gradient(left, #001a8e 0%, #0c687a 100%);
-  background: linear-gradient(90deg, #001a8e 0%, #0c687a 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4b6cb7), to(#182848));
+  background: -webkit-linear-gradient(left, #4b6cb7, #182848);
+  background: -o-linear-gradient(left, #4b6cb7, #182848);
+  background: linear-gradient(to right, #4b6cb7, #182848);
   padding-top: 15px;
   padding-bottom: 15px; }
   .links__wrapper {
@@ -634,6 +634,59 @@ a {
         -webkit-transform: scale(1.05);
             -ms-transform: scale(1.05);
                 transform: scale(1.05); }
+
+@media (max-width: 1100px) {
+  .header .container {
+    width: 95%;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr; }
+  .header__hi-there {
+    margin-left: auto;
+    margin-right: auto; }
+  .header__nav {
+    grid-column: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; } }
+
+@media (max-width: 390px) {
+  .header__nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    .header__nav > a:nth-child(+n + 4) {
+      margin-top: 10px; }
+    .header__nav a:hover:before {
+      -webkit-transform: scale(0);
+          -ms-transform: scale(0);
+              transform: scale(0); } }
+
+@media (max-width: 500px) {
+  .faq__interview-wrap p {
+    font-size: 13px;
+    margin-top: 12px;
+    margin-bottom: 12px; } }
+
+@media (max-width: 1200px) {
+  .about .container {
+    grid-template-columns: 1fr; }
+  .about__img {
+    display: none; }
+  .about__chapter {
+    text-align: center; }
+  .about__area {
+    grid-column: auto; } }
+
+@media (max-width: 500px) {
+  .about .container {
+    width: 95%; }
+  .about__area {
+    margin-left: 20px; }
+    .about__area p {
+      font-size: 16px; } }
+
+@media (max-width: 370px) {
+  .portfolio .container {
+    width: 100%; } }
 
 
 /*# sourceMappingURL=bundle.css.map*/
