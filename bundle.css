@@ -232,8 +232,11 @@ a {
       -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
               box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25); }
       .header__info-photo img {
-        width: 100%;
-        height: 133%; }
+        width: 151%;
+        height: 110%;
+        -webkit-transform: translate(-22%);
+            -ms-transform: translate(-22%);
+                transform: translate(-22%); }
     .header__info-job {
       font-size: 25px;
       font-weight: bold; }
