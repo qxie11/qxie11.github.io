@@ -232,11 +232,8 @@ a {
       -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
               box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25); }
       .header__info-photo img {
-        width: 151%;
-        height: 110%;
-        -webkit-transform: translate(-22%);
-            -ms-transform: translate(-22%);
-                transform: translate(-22%); }
+        width: 100%;
+        height: 124%; }
     .header__info-job {
       font-size: 25px;
       font-weight: bold; }
@@ -574,8 +571,9 @@ a {
   position: fixed;
   width: 40%;
   max-width: 772px;
+  min-width: 290px;
   height: 70vh;
-  max-height: 772px;
+  max-height: 619px;
   -webkit-border-radius: 40px;
           border-radius: 40px;
   background: #fff;
@@ -594,7 +592,8 @@ a {
     max-height: 80%;
     overflow-y: scroll; }
   .description__text {
-    word-wrap: break-word; }
+    word-wrap: break-word;
+    line-height: 30px; }
   .description__close {
     position: absolute;
     width: 30px;
@@ -690,6 +689,10 @@ a {
 @media (max-width: 370px) {
   .portfolio .container {
     width: 100%; } }
+
+@media screen and (max-width: 1000px) {
+  .description {
+    width: 90%; } }
 
 
 /*# sourceMappingURL=bundle.css.map*/
